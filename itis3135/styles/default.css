@@ -2,18 +2,29 @@
 
 body
 {
-	font-family: ta;
-	color: tan ;
+	font-family: tahoma;
+	color: blue ;
 	background-color: silver;
 	margin-left: 75px;
 	margin-right: 75px;
+    width: 750px;
+	margin: 0 auto;
 }
 
 header, footer
 {
 	text-align: center;
 }
-
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+thead
+{
+	background-color: green;
+}
 h1, h2, h3
 {
 	font-family: Cambria, Cochin, Georgia, serif;
@@ -26,6 +37,22 @@ a
 	text-decoration: none;
 	color: lightseagreen;
 	font-weight: bold;
+}
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightgreen;
 }
 
 a:hover
