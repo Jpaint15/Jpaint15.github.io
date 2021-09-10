@@ -12,8 +12,9 @@
         <a href="index.html">Index</a>
     </nav>
     <main>
-        <h2>HTML Tables</h2>
+        <h3>Employee Data in Simple Table</h3>
         <table>
+            <caption>Employee Information</caption>
             <tr>
               <th>Name</th>
               <th>Email</th> 
@@ -54,6 +55,59 @@
                 <td>juliette@murach.com</td> 
                 <td>4</td>
               </tr>
+          </table>
+          <h3>Employee Data in Complex Table</h3>
+        <table>
+            <caption>Employee Information</caption>
+            <tr>
+              <th>Description</th>
+              <th>Name</th>
+              <th>Email</th> 
+              <th>Years of Service</th>
+              <th>Monthly Salary</th>
+            </tr>
+            <tr>
+              <th rowspan="3">Editorial</th>
+              <td>John Murach</td>
+              <td>joelmurach@yahoo.com</td> 
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Anna Boehm</td>
+              <td>anne@murach.com</td> 
+              <td>33</td>
+            </tr>
+            <tr>
+                <td>Zak Ruvalcaba</td>
+                <td>zak@modulemedia.com</td> 
+                <td>5</td>
+              </tr>
+              <tr>
+                <th rowspan="2">Marketing</th>
+                <td>Judy Taylor</td>
+                <td>judy@murach.com</td> 
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Cyndi Vasquez</td>
+                <td>cyndi@murach.com</td> 
+                <td>10</td>
+              </tr>
+              <tr>
+                <th rowspan="2">Sales</th>
+                <td>Kelly Slivkoff</td>
+                <td>kelly@murach.com</td> 
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Juliette Baylon</td>
+                <td>juliette@murach.com</td> 
+                <td>4</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="right"><b>Total Years of Service</b></td>
+                <td class="right"><b>105</b></td>       
+                </tr>
           </table>
     </main>
     <footer>
