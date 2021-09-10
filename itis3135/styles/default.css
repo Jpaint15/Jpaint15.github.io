@@ -1,50 +1,38 @@
+/*ITIS 3135 Activity 2 css file*/
 
-
+/*styling for the table goes here*/
 body
 {
-	font-family: tahoma;
-	color: blue ;
-	background-color: silver;
-	margin-left: 75px;
-	margin-right: 75px;
+	width: 750px;
+	margin: 0 auto;
 }
 
-header, footer
+table
 {
-	text-align: center;
+	border-collapse: collapse;
+	
+	margin: 20px;
 }
 
-h1, h2, h3
+thead
 {
-	font-family: Cambria, Cochin, Georgia, serif;
-	text-align: center;
-	line-height: 0px;
+	background-color: green;
 }
 
-a
+th, td
 {
-	text-decoration: none;
-	color: lightseagreen;
-	font-weight: bold;
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
 }
 
-a:hover
+.right
 {
-	text-decoration: underline;
-	color: mediumseagreen;
+	text-align: right;
 }
 
-figure
+tbody tr:nth-child(odd) td
 {
-	text-align: center;
-}
-
-figcaption
-{
-	font-style: italic;
-}
-
-nav
-{
-	text-align: center;
+	background-color: lightgreen;
 }
