@@ -74,7 +74,7 @@ th, td
 {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
-	text-align: left;
+	text-align: center;
 	vertical-align: middle;
 }
 .right
@@ -106,3 +106,8 @@ nav
 {
 	text-align: center;
 }
+ul.no-bullets {
+	list-style-type: none; 
+	padding: 0;
+	margin: 0; 
+  }
