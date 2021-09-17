@@ -3,7 +3,7 @@ body
 {
 	font-family: 'Segoe UI';
 	color: black ;
-	background-color: #5f676e;;
+	background-color: powderblue;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
@@ -40,7 +40,7 @@ h1
  p {
 	color: black;
 	font-family: 'Segoe UI';
-	text-align: left;
+	text-align: center;
  }
 h2
 {
