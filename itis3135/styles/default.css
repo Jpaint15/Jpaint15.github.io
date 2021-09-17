@@ -1,12 +1,9 @@
-background {
-	color: #457B9D;
-}
 
 body
 {
 	font-family: Georgia;
 	color: blue ;
-	background-color: silver;
+	background-color: #457B9D;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
