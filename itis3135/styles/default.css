@@ -1,9 +1,9 @@
 
 body
 {
-	font-family: Georgia;
-	color: blue ;
-	background-color: white;;
+	font-family: 'Segoe UI';
+	color: black ;
+	background-color: silver;;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
@@ -88,7 +88,7 @@ tbody tr:nth-child(odd) td
 a:hover
 {
 	text-decoration: underline;
-	color: mediumseagreen;
+	color: rgb(216, 25, 25);
 }
 
 figure
