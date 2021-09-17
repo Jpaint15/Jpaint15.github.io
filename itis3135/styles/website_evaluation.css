@@ -10,7 +10,7 @@ body
 	margin: 0 auto;
 }
 header {
-	text-align: center;
+	text-align: left;
 	line-height: 25px;
 	color: #E63946;
 }
@@ -33,7 +33,7 @@ thead
 h1
 {
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #99ff99;
 }

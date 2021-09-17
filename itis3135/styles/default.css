@@ -23,8 +23,8 @@ footer
 table
 {
 	border-collapse: collapse;
-	margin-left: auto;
-	margin-right: auto;
+	 margin-left: auto;
+  margin-right: auto;
 	margin: 20px;
 }
 thead
