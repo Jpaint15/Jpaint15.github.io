@@ -3,7 +3,7 @@ body
 {
 	font-family: Georgia;
 	color: blue ;
-	background-color: lightseagreen;
+	background-color: lightseagreen;;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
@@ -18,7 +18,7 @@ footer
 {
 	text-align: center;
 	line-height: 25px;
-	color: #1D3557;
+	color: #A8DADC;
 }
 table
 {
@@ -38,7 +38,7 @@ h1
 	color: #E63946;
 }
  p {
-	color: #A8DADC;
+	color: #1D3557;
  }
 h2
 {
@@ -59,7 +59,7 @@ h4
 	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
-	color: #1D3557;
+	color: #A8DADC;
 }
 
 a
