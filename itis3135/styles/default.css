@@ -18,7 +18,7 @@ footer
 {
 	text-align: center;
 	line-height: 25px;
-	color: #A8DADC;
+	color: red;
 }
 table
 {
@@ -28,17 +28,18 @@ table
 }
 thead
 {
-	background-color: green;
+	background-color: red;
 }
 h1
 {
-	font-family: Georgia;
+	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
 	color: #E63946;
 }
  p {
-	color: #1D3557;
+	color: black;
+	font-family: 'Segoe UI';
  }
 h2
 {
@@ -49,14 +50,14 @@ h2
 }
 h3
 {
-	font-family: Georgia;
+	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
 	color: #457B9D;
 }
 h4
 {
-	font-family: 'Times New Roman';
+	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
 	color: black;
@@ -65,7 +66,7 @@ h4
 a
 {
 	text-decoration: none;
-	color: lightseagreen;
+	color: red;
 	font-weight: bold;
 }
 th, td
