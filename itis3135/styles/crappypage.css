@@ -22,7 +22,7 @@ footer
 	text-align: center;
 	line-height: 25px;
 	color: #A8DADC;
-    border-color: purple;  
+    border-color: red;  
     border-width: 5px;  
     border-style: inset;  
 }
@@ -108,7 +108,7 @@ tbody tr:nth-child(odd) td
 a
 {
 	text-decoration: underline;
-	color: blue;
+	color: red;
 }x
 
 figure
