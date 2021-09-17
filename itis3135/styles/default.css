@@ -2,7 +2,7 @@
 
 body
 {
-	font-family: Tahoma;
+	font-family: Georgia;
 	color: blue ;
 	background-color: silver;
 	margin-left: 75px;
@@ -10,7 +10,7 @@ body
     width: 750px;
 	margin: 0 auto;
 }
-
+img
 header, footer
 {
 	text-align: center;
@@ -28,28 +28,28 @@ thead
 }
 h1
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
 	color: #E63946;
 }
 h2
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
 	color: #A8DADC;
 }
 h3
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
 	color: #457B9D;
 }
 h4
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
 	color: #1D3557;
@@ -93,7 +93,6 @@ figcaption
 {
 	font-style: italic;
 }
-
 nav
 {
 	text-align: center;
