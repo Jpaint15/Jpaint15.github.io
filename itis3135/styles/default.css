@@ -15,6 +15,7 @@ header, footer
 {
 	text-align: center;
 	line-height: 25px;
+	color: #1D3557;
 }
 table
 {
@@ -33,19 +34,15 @@ h1
 	line-height: 0px;
 	color: #E63946;
 }
+ p {
+	color: #457B9D;
+ }
 h2
 {
 	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
 	color: #A8DADC;
-}
-h3
-{
-	font-family: Georgia;
-	text-align: center;
-	line-height: 0px;
-	color: #457B9D;
 }
 h4
 {
