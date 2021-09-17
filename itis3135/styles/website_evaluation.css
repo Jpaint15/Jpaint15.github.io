@@ -38,7 +38,7 @@ h1
 	color: #99ff99;
 }
  p {
-	color: black;
+	color: #99ff99;
 	font-family: 'Segoe UI';
 	text-align: center;
  }
@@ -61,7 +61,7 @@ h4
 	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
-	color: black;
+	color: #99ff99;;;
 }
 
 a
