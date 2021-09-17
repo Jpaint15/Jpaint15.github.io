@@ -11,7 +11,12 @@ body
 	margin: 0 auto;
 }
 img
-header, footer
+header {
+	text-align: center;
+	line-height: 25px;
+	color: #E63946;
+}
+footer
 {
 	text-align: center;
 	line-height: 25px;
@@ -35,14 +40,21 @@ h1
 	color: #E63946;
 }
  p {
-	color: #457B9D;
+	color: #A8DADC;
  }
 h2
 {
 	font-family: Georgia;
 	text-align: center;
 	line-height: 0px;
-	color: #A8DADC;
+	color: #E63946;
+}
+h3
+{
+	font-family: Georgia;
+	text-align: center;
+	line-height: 0px;
+	color: #457B9D;
 }
 h4
 {
