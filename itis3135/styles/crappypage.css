@@ -105,11 +105,11 @@ tbody tr:nth-child(odd) td
 	background-color: lightgreen;
 }
 
-a:hover
+a
 {
 	text-decoration: underline;
-	color: mediumseagreen;
-}
+	color: blue;
+}x
 
 figure
 {
