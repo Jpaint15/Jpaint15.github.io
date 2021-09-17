@@ -3,7 +3,7 @@ body
 {
 	font-family: Georgia;
 	color: blue ;
-	background-color: lightseagreen;;
+	background-color: white;;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
@@ -56,10 +56,10 @@ h3
 }
 h4
 {
-	font-family: Georgia;
+	font-family: 'Times New Roman';
 	text-align: center;
 	line-height: 0px;
-	color: #A8DADC;
+	color: black;
 }
 
 a
