@@ -53,7 +53,7 @@ h3
 	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
-	color: #457B9D;
+	color: red;
 }
 h4
 {
@@ -83,7 +83,7 @@ th, td
 
 tbody tr:nth-child(odd) td
 {
-	background-color: lightgreen;
+	background-color: red;
 }
 
 a:hover
