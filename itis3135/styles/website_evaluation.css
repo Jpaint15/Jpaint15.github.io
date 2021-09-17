@@ -3,22 +3,22 @@ body
 {
 	font-family: 'Segoe UI';
 	color: black ;
-	background-color: #33ccff;;
+	background-color: #99ccff;;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
 	margin: 0 auto;
 }
 header {
-	text-align: left;
+	text-align: center;
 	line-height: 25px;
-	color: #E63946;
+	color: #99ff99;;
 }
 footer
 {
 	text-align: center;
 	line-height: 25px;
-	color: red;
+	color: purple;
 }
 table
 {
@@ -28,12 +28,12 @@ table
 }
 thead
 {
-	background-color: red;
+	background-color: #99ff99;
 }
 h1
 {
 	font-family: 'Segoe UI';
-	text-align: left;
+	text-align: center;
 	line-height: 0px;
 	color: #99ff99;
 }
@@ -45,9 +45,9 @@ h1
 h2
 {
 	font-family: Georgia;
-	text-align: left;
+	text-align: center;
 	line-height: 0px;
-	color: #E63946;
+	color: #99ff99;
 }
 h3
 {
@@ -90,7 +90,7 @@ tbody tr:nth-child(even) td
 a:hover
 {
 	text-decoration: underline;
-	color: red;
+	color: #99ff99;
 }
 
 figure
