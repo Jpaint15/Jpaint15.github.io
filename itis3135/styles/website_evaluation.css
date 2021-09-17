@@ -3,7 +3,7 @@ body
 {
 	font-family: 'Segoe UI';
 	color: black ;
-	background-color: silver;;
+	background-color: #33ccff;;
 	margin-left: 75px;
 	margin-right: 75px;
     width: 750px;
@@ -35,17 +35,17 @@ h1
 	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
-	color: #E63946;
+	color: #99ff99;
 }
  p {
 	color: black;
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
  }
 h2
 {
 	font-family: Georgia;
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #E63946;
 }
@@ -54,7 +54,7 @@ h3
 	font-family: 'Segoe UI';
 	text-align: center;
 	line-height: 0px;
-	color: red;
+	color: #99ff99;
 }
 h4
 {
@@ -67,7 +67,7 @@ h4
 a
 {
 	text-decoration: none;
-	color: red;
+	color: #9966ff;
 	font-weight: bold;
 }
 th, td
@@ -82,9 +82,9 @@ th, td
 	text-align: right;
 }
 
-tbody tr:nth-child(odd) td
+tbody tr:nth-child(even) td
 {
-	background-color: red;
+	background-color: #33ccff;
 }
 
 a:hover
