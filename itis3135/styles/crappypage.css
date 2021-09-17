@@ -1,0 +1,126 @@
+
+body
+{
+	font-family: Georgia;
+	color: blue ;
+	background-color: lightseagreen;;
+	margin-left: 75px;
+	margin-right: 75px;
+    width: 750px;
+	margin: 0 auto;
+    border-color: pink;  
+    border-width: 5px;  
+    border-style: inset;  
+}
+header {
+	text-align: center;
+	line-height: 25px;
+	color: #E63946;
+}
+footer
+{
+	text-align: center;
+	line-height: 25px;
+	color: #A8DADC;
+    border-color: purple;  
+    border-width: 5px;  
+    border-style: inset;  
+}
+ul {
+    display: table;
+    margin: 0 auto;
+  }
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+thead
+{
+	background-color: green;
+}
+h1
+{
+	font-family: Verdana;
+	text-align: center;
+	line-height: 0px;
+	color: black;
+    border-color: orange;  
+    border-width: 5px;  
+    border-style: inset;  
+}
+ p {
+	color: #1D3557;
+    font-size: 30px;
+    background-color: blue;
+ }
+h2
+{
+	font-family: Georgia;
+	text-align: center;
+	line-height: 0px;
+	color: black;
+    background-color: red;
+    border-color: green;  
+    border-width: 5px;  
+    border-style: inset;  
+}
+h3
+{
+	font-family: Georgia;
+	text-align: center;
+	line-height: 0px;
+	color: #457B9D;
+
+}
+h4
+{
+	font-family: Georgia;
+	text-align: center;
+	line-height: 0px;
+	color: #A8DADC;
+}
+
+a
+{
+	text-decoration: none;
+	color: lightseagreen;
+	font-weight: bold;
+}
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightgreen;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: mediumseagreen;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+nav
+{
+	text-align: center;
+}
