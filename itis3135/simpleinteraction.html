@@ -4,6 +4,37 @@
     <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">
     <title> Jonathan Painter, ITIS 3135, Simple web-based Interaction</title>
 </head>
+<p>
+    <script>
+        document.getElementById("btnClick").onclick=clickEvent;
+        function contactUs() {
+            alert("email at jdp@gmail.com");
+        }
+        var username = prompt("What is your name?");
+        var getName = null;
+        
+        while (getName === null || !isNaN(getName)){
+            getName = prompt("What is your name ? ");
+            
+            if (getName === null || !isNaN(getName)){
+                alert("Invalid name, please try again");
+            }else{
+                document.write("Hello ", getName);
+            }
+        }
+        var howareyou= prompt("How are you doing today");
+        if (howareyou === null || !isNaN(howareyou)){
+            alert("Invalid name, please try again");
+        }
+        var today=new Date();
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        document.write("Today is :" + date.toDateString() + "and the time is: " + time.toDateString());
+        document.write("The Joking Dancing Panther co. welcomes you, Jpaint15 here!" );
+        document.write("We're glad you are doing " + howareyou);
+    </script>
+</p>
 <body>
     <header>
         <h2>Simple web-based Interactions</h2>
@@ -12,41 +43,17 @@
         <a href="forms.html">Forms</a> <a href="website_evaluations.html"> || Website Evaluations </a>
     </nav>
     <main>
-        <h2>Enter your name</h2>
-        <p>
-        <script>var username = prompt("What is your name?");
-            var getName = null;
-            
-            while (getName === null || !isNaN(getName)){
-                getName = prompt("What is your name ? ");
-                
-                if (getName === null || !isNaN(getName)){
-                    alert("Invalid name, please try again");
-                }else{
-                    document.write("Hello ", getName);
-                }
-            }
-            var howareyou= prompt("How are you doing today");
-            if (howareyou === null || !isNaN(howareyou)){
-                alert("Invalid name, please try again");
-            }
-            var today=new Date();
-            var today = new Date();
-            var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-            document.write("Today is :" + date.toDateString() + "and the time is: " + time.toDateString());
-            document.write("The Joking Dancing Panther co. welcomes you, Jpaint15 here!" );
-            document.write("We're glad you are doing " + howareyou);
-        </script>
-        <input type="button" id="btnClick" value="Contact" onclick="contactUs()"> <BR>
-        <script>
-            document.getElementById("btnClick").onclick=clickEvent;
-            function contactUs() {
-                alert("email at jdp@gmail.com");
-            }
-        </script>
-        </p>
-    </main>
+        <h2>Activity 5</h2>
+        
+        <input type="my-button" id="btnClick" value="Contact" onclick="contactUs()"> <br>
+        <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
+    </p>
+</main>
+<footer>
+    <h3>Page Built by Jonathon Painter</h3>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html">Validate CSS</a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a>
+</footer>
 </body>
 
 

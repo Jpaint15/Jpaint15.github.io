@@ -37,6 +37,14 @@ h1
 	line-height: 0px;
 	color: #99ff99;
 }
+ .my-button {
+	padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:#333;
+	text-align: left;
+ }
  p {
 	color: black;
 	font-family: 'Segoe UI';
