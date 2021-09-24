@@ -72,5 +72,5 @@ switch (month)
 
 var year = currentDate.getFullYear();
 var myString;
-myString = "Today is " + day +  " - " + monthName + " - " + year + ".<br />Current time is " + hours1 + ":" + mins + ":" + secs + " " + strToAppend + ".<br />The  Joking Dancing Panther co. welcomes you, Jpaint15!<br/>We're glad you are doing " + howareyou;
+myString = "Today is " + day +  " - " + monthName + " - " + year + "and  the time is: " + hours1 + ":" + mins + ":" + secs + " " + strToAppend + ".<br />The  Joking Dancing Panther co. welcomes you, Jpaint15!<br/>We're glad you are doing " + howareyou;
 document.write(myString);
