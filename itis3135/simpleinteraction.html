@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">
+    <title> Jonathan Painter, ITIS 3135, Simple web-based Interaction</title>
+</head>
+<body>
+    <header>
+        <h2>Simple web-based Interactions</h2>
+    </header>
+    <nav>
+        <a href="forms.html">Forms</a> <a href="website_evaluations.html"> || Website Evaluations </a>
+    </nav>
+    <main>
+        <h2>Enter your name</h2>
+        <p>
+        <script>var username = prompt("What is your name?");
+            var getName = null;
+            
+            while (getName === null || !isNaN(getName)){
+                getName = prompt("What is your name ? ");
+                
+                if (getName === null || !isNaN(getName)){
+                    alert("Invalid name, please try again");
+                }else{
+                    document.write("Hello ", getName);
+                }
+            }
+            var howareyou= prompt("How are you doing today");
+            if (howareyou === null || !isNaN(howareyou)){
+                alert("Invalid name, please try again");
+            }
+            var today=new Date();
+            var today = new Date();
+            var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            document.write("Today is :" + date.toDateString() + "and the time is: " + time.toDateString());
+            document.write("The Joking Dancing Panther co. welcomes you, Jpaint15 here!" );
+            document.write("We're glad you are doing " + howareyou);
+        </script>
+        <input type="button" id="btnClick" value="Contact" onclick="contactUs()"> <BR>
+        <script>
+            document.getElementById("btnClick").onclick=clickEvent;
+            function contactUs() {
+                alert("email at jdp@gmail.com");
+            }
+        </script>
+        </p>
+    </main>
+</body>
+
+
+</html>
