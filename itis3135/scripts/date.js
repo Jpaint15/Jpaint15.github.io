@@ -97,7 +97,7 @@ var calculateTax = function() {
             tax = amount * .10;
         }
         tax += amount * .153;
-        return tax;
+        return tax + amount;
         /*
         10% on taxable income from $0 to $8,700
         15% on taxable income over $8,700 to $35,350
