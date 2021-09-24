@@ -29,17 +29,15 @@
         <input class="packages-button" type="button" id="btnPackages" value="Packages" onclick="addItem(document.getElementById('seePackages').rowIndex)" />
         <input class="calculate-button" type="button" id="btnCalculate" value="Caculate" onclick="addItem(document.getElementById('calculateTax').rowIndex)" />
         <h2>Calculate Income Tax</h2>
-        <p>Enter Subtotal and Tax Rate and click "Calculate".</p>
+        <p>Enter Income and Tax Rate and click "Calculate".</p>
         
         <div id="myTaxCal">
-            <label for="subtotal">Subtotal:</label>       
+            <label for="subtotal">Income:</label>       
             <input type="text" id="subtotal" onclick="clearSubTotal()">       
             <span id="subTotMsg">Enter order subtotal</span><br />
             <label for="tax_rate">Tax Rate:</label>
             <input type="text" id="tax_rate" onclick="clearTaxRate()" >    
             <span id="taxRateMsg">Enter sales tax rate (99.9)</span><br />
-            <label for="sales_tax">Sales Tax:</label>
-            <input type="text" id="sales_tax" disabled ><br />
             <label for="total">Total:</label>
             <input type="text" id="total" disabled ><br />
             

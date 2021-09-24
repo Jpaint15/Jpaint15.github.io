@@ -122,6 +122,6 @@ function clearTaxRate()
 }
 window.onload = function ()
 {
-    $("calculate").onclick=processEntries;
+    $("btnCalculate").onclick=calculateTax();
 }
 
