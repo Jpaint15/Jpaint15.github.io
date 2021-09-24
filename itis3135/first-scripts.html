@@ -2,22 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">
-    <title> Jonathan Painter, ITIS 3135, Simple web-based Interaction</title>
+    <title> Jonathan Painter, ITIS 3135, First Scripts</title>
+    <script src="scripts/alert.js"></script>
 </head>
 
 <body>
     <header>
-        <h2>Simple web-based Interactions</h2>
+        <h1>ITIS 3135 || First Scripts</h1>
     </header>
     <nav>
         <a href="forms.html">Forms</a> <a href="website_evaluations.html"> || Website Evaluations </a>
     </nav>
     <main>
-        <h2>Activity 5</h2>
+        <h2>First Scripts</h2>
         
         <input class="contact-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
-        <input class="packages" type="button" id="btnPackages" value="Packages" onclick="addItem(document.getElementById('seePackages').rowIndex)" />
-        <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
+        <input class="packages-button" type="button" id="btnPackages" value="Packages" onclick="addItem(document.getElementById('seePackages').rowIndex)" />
+        <input class="" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
         <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
         <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
     </p>
@@ -33,6 +34,9 @@
     document.getElementById("btnPackages").onclick=clickEvent;
     function contactUs() {
         alert("email at jdp@gmail.com");
+    }
+    function headElement() {
+        alert("Hey my script is running");
     }
     function seePackages() {
         document.write("We have 3 Packages priced at $100, $200, and $500");
