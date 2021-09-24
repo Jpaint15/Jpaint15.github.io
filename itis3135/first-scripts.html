@@ -11,46 +11,54 @@
     <header>
         <h1>ITIS 3135 || First Scripts</h1>
     </header>
-        <p id ="demo">
-            T
-        </p>
+    <p id ="demo">
+    </p>
     <nav>
         <a href="forms.html">Forms</a> <a href="website_evaluations.html"> || Website Evaluations </a>
     </nav>
     <main>
         <script src="scripts/date.js"></script>
         <h2>First Scripts</h2>
+        <p>
+            The Joking Dancing Panther Co. decided to change their form <br>
+            of business and decided to go into a tax firm that helps customers <br>
+            file their taxes for the year.
+        </p>
         
         <input class="contact-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
         <input class="packages-button" type="button" id="btnPackages" value="Packages" onclick="addItem(document.getElementById('seePackages').rowIndex)" />
-        <input class="" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
-        <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
-        <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
-    </p>
-</main>
-<footer>
-    <h3>Page Built by Jonathon Painter</h3>
-    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html">Validate CSS</a>
-    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a>
-</footer>
+        <input class="calculate-button" type="button" id="btnCalculate" value="Caculate" onclick="addItem(document.getElementById('calculateTax').rowIndex)" />
+        <h2>Calculate Income Tax</h2>
+        <p>Enter Subtotal and Tax Rate and click "Calculate".</p>
+        
+        <div id="myTaxCal">
+            <label for="subtotal">Subtotal:</label>       
+            <input type="text" id="subtotal" onclick="clearSubTotal()">       
+            <span id="subTotMsg">Enter order subtotal</span><br />
+            <label for="tax_rate">Tax Rate:</label>
+            <input type="text" id="tax_rate" onclick="clearTaxRate()" >    
+            <span id="taxRateMsg">Enter sales tax rate (99.9)</span><br />
+            <label for="sales_tax">Sales Tax:</label>
+            <input type="text" id="sales_tax" disabled ><br />
+            <label for="total">Total:</label>
+            <input type="text" id="total" disabled ><br />
+            
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate"   >    
+            <input type="button" id="clear" value="Clear" onclick=clear_click()><br />
+            <label for="income">Income for year:</label>
+            <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
+            <input class="my-button" type="button" id="btnClick" value="Contact" onclick="addItem(document.getElementById('contactUs').rowIndex)" />
+        </p>
+    </main>
+    <footer>
+        <h3>Page Built by Jonathon Painter</h3>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html">Validate CSS</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpaint15.github.io%2Fitis3135%2Fsimpleinteraction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a>
+    </footer>
 </body>
-<!--
-<script>
-    function contactUs() {
-        alert("email at jdp@gmail.com");
-    }
-    function headElement() {
-        alert("Hey my script is running");
-    }
-    function seePackages() {
-        document.write("We have 3 Packages priced at $100, $200, and $500");
-    }
-    function seePackages() {
-        document.write("We have 3 Packages priced at $100, $200, and $500");
-    }
-    function seePackages() {
-        document.write("We have 3 Packages priced at $100, $200, and $500");
-    }
-</script>
- -->
+
+
+
+
 </html>
