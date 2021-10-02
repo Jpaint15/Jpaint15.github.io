@@ -5,7 +5,7 @@ validateEntry();
 while (value>10 || value <0) {
     var value=prompt("Error the number entered is not between 1 and 10!")
 }
-var getShape = function() {
+ function getShape() {
     switch (value) //Switch case to assign the name variable to names
     {
         case 1:
