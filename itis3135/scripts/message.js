@@ -1,4 +1,5 @@
 var value = prompt("Enter a number between 1 and 10:"); //pass value to method
+validateEntry();
 
 
 while (value>10 || value <0) {
