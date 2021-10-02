@@ -9,41 +9,37 @@ while (value>10 || value <0) {
     var value=prompt("Error the number entered is not between 1 and 10!")
 }
 var getShape = function(value) {
-    var name;
     switch (value) //Switch case to assign the name variable to names
     {
         case 1:
-        name = "Monogon";
+        alert("Monogon");
         break;
         case 2:
-        name = "Bigon";
+        alert("Bigon")
         break;
         case 3:
-        name = "Triangle";
+        alert("Triangle");
         break;
         case 4:
-        name = "Tetragon";
+        alert("Tetragon");
         break;
         case 5:
-        name = "Pentagon";
+        alert("Pentagon");
         break;
         case 6:
-        name = "Hexagon";
+        alert("Hexagon");
         break;
         case 7:
-        name = "Heptagon";
+        alert("Heptagon");
         break;
         case 8:
-        name = "Octagon";
+        alert("Octagon");
         break;
         case 9:
-        name = "Enneagon";
+        alert("Enneagon");
         break;
         case 10:
-        name = "Decagon";
+        alert("Decagon");
     }
-    var myString;
-    myString = "A shape with a number of sides of " + value +  " has a name of " + name + ".";
-    document.write(myString); //print statement
 }
     
