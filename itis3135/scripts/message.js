@@ -1,4 +1,4 @@
-var value = prompt("Enter a number between 1 and 0:", getShape(value)); //pass value to method
+var value = prompt("Enter a number between 1 and 0:"); //pass value to method
 
 function validateEntry() {
     value=Math.round(value);
