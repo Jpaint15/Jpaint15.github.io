@@ -48,12 +48,12 @@ h1
  p {
 	color: black;
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
  }
 h2
 {
 	font-family: Georgia;
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #99ff99;
 }
