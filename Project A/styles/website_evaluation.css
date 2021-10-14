@@ -1,0 +1,123 @@
+
+body
+{
+	font-family: 'Segoe UI';
+	color: black ;
+	background-color: powderblue;
+	margin-left: 75px;
+	margin-right: 75px;
+    width: 750px;
+	margin: 0 auto;
+}
+header {
+	text-align: center;
+	line-height: 25px;
+	color: #99ff99;;
+}
+footer
+{
+	text-align: center;
+	line-height: 25px;
+	color: purple;
+}
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+thead
+{
+	background-color: #99ff99;
+}
+h1
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: #99ff99;
+}
+ .contact-button {
+	padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:#333;
+	text-align: center;
+ }
+ p {
+	color: black;
+	font-family: 'Segoe UI';
+	text-align: center;
+ }
+h2
+{
+	font-family: Georgia;
+	text-align: center;
+	line-height: 0px;
+	color: #99ff99;
+}
+h3
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: #99ff99;
+}
+h4
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: #99ff99;;;
+}
+
+a
+{
+	text-decoration: none;
+	color: #9966ff;
+	font-weight: bold;
+}
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: center;
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: #33ccff;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #99ff99;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+nav
+{
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0; 
+	font-family:'Segoe UI' ;
+	text-align: center;
+  }
