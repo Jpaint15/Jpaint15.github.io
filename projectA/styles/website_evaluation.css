@@ -115,10 +115,11 @@ nav
 	text-align: center;
 }
 ul {
-	list-style-type: none;
 	padding: 0;
 	display: inline-block;
 	margin: 0; 
 	font-family:'Segoe UI' ;
 	text-align: left;
+	list-style-type: upper-roman;
+	list-style-position: inside;
   }
