@@ -33,7 +33,7 @@ thead
 h1
 {
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #99ff99;
 }
@@ -43,7 +43,7 @@ h1
     -webkit-border-radius: 5px;
     border-radius: 5px;
     border-color:#333;
-	text-align: center;
+	text-align: left;
  }
  p {
 	color: black;
@@ -60,14 +60,14 @@ h2
 h3
 {
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #99ff99;
 }
 h4
 {
 	font-family: 'Segoe UI';
-	text-align: center;
+	text-align: left;
 	line-height: 0px;
 	color: #99ff99;;;
 }
@@ -82,7 +82,7 @@ th, td
 {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
 }
 .right
@@ -119,5 +119,5 @@ ul {
 	padding: 0;
 	margin: 0; 
 	font-family:'Segoe UI' ;
-	text-align: center;
+	text-align: left;
   }
