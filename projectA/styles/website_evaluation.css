@@ -1,4 +1,8 @@
-
+html {
+	height: 100%;
+	margin: auto;
+	width: 960px;
+  }
 body
 {
 	font-family: 'Segoe UI';
