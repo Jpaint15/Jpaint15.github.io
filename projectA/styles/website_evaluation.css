@@ -62,7 +62,7 @@ h2
 	font-family: Georgia;
 	text-align: left;
 	line-height: 0px;
-	color: #99ff99;
+	color: purple;
 }
 h3
 {
@@ -82,7 +82,7 @@ h4
 a
 {
 	text-decoration: none;
-	color: blue;
+	color: purple;
 	font-weight: bold;
 }
 th, td
@@ -129,10 +129,10 @@ ul {
 	text-align: left;
 	list-style-type: disc;
 	list-style-position: inside;
-	font-size: 12px;
+	font-size: 18px;
 	
   }
   ul li{
-	font-size:12px;
+	font-size:18px;
    }
 
