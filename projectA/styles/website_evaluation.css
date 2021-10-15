@@ -33,7 +33,7 @@ thead
 h1
 {
 	font-family: 'Segoe UI';
-	text-align: left;
+	text-align: center;
 	line-height: 0px;
 	color: #99ff99;
 }
@@ -67,7 +67,7 @@ h3
 h4
 {
 	font-family: 'Segoe UI';
-	text-align: left;
+	text-align: center;
 	line-height: 0px;
 	color: #99ff99;;;
 }
