@@ -44,8 +44,8 @@ th {
   padding-bottom: 5px;
   text-align: left;
   background-color:#262626;
- 
-  color:black;
+  font-family: 'Times New Roman';
+  color:tan;
 }
 
 table.center {
@@ -92,6 +92,13 @@ abbr {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+ul li {
+  color: lightblue;
+}
+
+h3 {
+  color:tan;
 }
 
 
