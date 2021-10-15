@@ -10,7 +10,7 @@
   <!-- css -->
   <link rel="stylesheet" href="painterActivityAccessibility.css">
   <title>Test For Accessibility</title>
-
+<h3>Candle Delight</h3>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 
     <table class="center">
 
-      <caption></caption>
+      <caption>Candles</caption>
       <thead>
         <tr>
           <!-- identify table headers <th> with scope attribute -->
@@ -31,26 +31,54 @@
       </thead>
       <tbody>
         <tr>
-          <th></th>
-          <td></td>
-          <td></td>   
+          <th>Birthday Candles</th>
+          <td><img src="images/birthdayCandles.jpg" alt=""  height=100 width=300></img>
+          </td>
+          <td>
+            <ol>
+              <li>Comes in a range of fun, vibrant colors</li>
+              <li>Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+              <li>Offers a way to personalize customers desserts on birthdays and anniversaries</li>
+          </ol>
+          </td>   
         </td>
         </tr>
         <tr>
-            <th></th>
-            <td></td>
-            <td></td>
+            <th>Votives</th>
+            <td>
+              <img src="images/voltives.jpeg" alt=""  height=100 width=300></img>
+            </td>
+            <td><ol>
+              <li>Inexpensive and easy to use</li>
+              <li>Bigger than tea lights to provide burn times, making them better for longer events</li>
+          </ol>
+        </td>
           </tr>
           <tr>
-              <th></th>
-              <td></td>
-              <td></td>
+              <th>Taper Candles</th>
+              <td><img src="images/taper-candles.jpg" alt=""  height=100 width=300></img></td>
+              <td>
+                <ol>
+                  <li>Commonly known as window candles</li>
+                  <li>Long, slender constructions add dimension to table tops</li>
+              </ol>
+              </td>
             </tr>
       </tbody>
     </table>
      <!--Add the form here-->
-    
-   
+     
+     <h3>Enter your name and phone number to win a gift!</h3>
+     <label for="Name">Name:</label>
+     <input id="Name" type="text" aria-required="true">
+
+     <label for="textbox1">Phone number</label>
+    <input id="textbox1" type="text" name="textbox1" aria-required="true">
+    <form>
+    <label for="submit">Submit</label>
+    <button type="submit" name="submit" formaction="textbox1">
+  </form>
+
     <div class="whitespace"></div>
     <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
     <div class="whitespace"></div>
@@ -60,7 +88,14 @@
   </main>
 
   <footer>
-
+    <p> Page built by Jonathan Painter</p>
+    <a href= "https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpaint15.github.io%2Faccessibility%2FpainterActivityAccessibility.html">
+        <img src="images/button-valid-html5.gif" width= "88" height="31" alt="Link to HTML validator">
+    </a>
+    <a
+        href= "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpaint15.github.io%2Faccessibility%2FpainterActivityAccessibility.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img src="images/button-valid-css.gif" width= "88" height="31" alt="Link to HTML validator">
+    </a>
   </footer>
 </body>
 </html>
