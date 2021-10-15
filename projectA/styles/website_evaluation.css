@@ -19,7 +19,7 @@ footer
 {
 	text-align: center;
 	line-height: 25px;
-	color: purple;
+	color: blue;
 }
 table
 {
@@ -50,6 +50,7 @@ h1
 	color: black;
 	font-family: 'Segoe UI';
 	text-align: left;
+	font-size: 8px;
  }
 h2
 {
@@ -76,7 +77,7 @@ h4
 a
 {
 	text-decoration: none;
-	color: #9966ff;
+	color: blue;
 	font-weight: bold;
 }
 th, td
