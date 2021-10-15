@@ -100,5 +100,9 @@ ul li {
 h3 {
   color:tan;
 }
+button {
+  color: lightblue;
+  background-color: darkslategray;
+}
 
 
