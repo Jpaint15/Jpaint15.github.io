@@ -56,11 +56,11 @@ header {
 		width: 1000px;
 	}
 	/* add styling for buttons on homepage */
-	.rectangle {
+	.button {
 		height: 30px;
 		width: 150px;
-		background-color: darkblue;
-		color: white;
+		background-color: lightblue;
+		color: lightgreen;
 	}
 	
 	
