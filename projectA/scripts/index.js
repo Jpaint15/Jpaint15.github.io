@@ -1,3 +1,3 @@
 $('raptor').click(function(){
-    window.location.href='https://raptor.martincarlisle.com';
+    window.location='https://raptor.martincarlisle.com' + this.id;
  })
