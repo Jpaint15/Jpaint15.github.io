@@ -143,4 +143,8 @@ ul {
     overflow-y:scroll;
     overflow-x:hidden;
 }
+button {
+    color: lightblue;
+    background-color: darkslategray;
+  }
 
