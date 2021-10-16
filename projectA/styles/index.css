@@ -2,14 +2,13 @@ html {
 	height: 100%;
 	margin: auto;
 	width: 960px;
-	Overflow-y:scroll;
+    overflow: auto;
   }
 body
 {
 	font-family: 'Segoe UI';
 	color: black ;
 	background-color: powderblue;
-    position:fixed;
     top:0;
     bottom:0;
     left:0;
@@ -135,6 +134,7 @@ ul {
   ul li{
 	font-size:20px;
    }
+
 
    .fixed-content {
     top: 0;
