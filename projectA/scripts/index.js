@@ -24,3 +24,4 @@ $('raptor').click(function(){
      }
      document.getElementById("people").innerHTML =table;
  }
+ 
