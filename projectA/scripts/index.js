@@ -1,6 +1,3 @@
-$('raptor').click(function(){
-    window.location='https://raptor.martincarlisle.com' + this.id;
- })
 
 function loadDoc() {
   const xhttp = new XMLHttpRequest();
@@ -23,5 +20,9 @@ function myFunction(xml) {
   }
   document.getElementById("people").innerHTML = table;
 }
+
+$('raptor').click(function(){
+    window.location='https://raptor.martincarlisle.com' + this.id;
+ })
 
  
