@@ -7,7 +7,7 @@ function loadDoc() {
   xhttp.onload = function() {
     myFunction(this);
   }
-  xhttp.open("GET", "info.xml");
+  xhttp.open("GET", "people.xml");
   xhttp.send();
 }
 function myFunction(xml) {
