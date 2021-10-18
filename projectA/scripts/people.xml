@@ -1,0 +1,80 @@
+<xml>
+<table>
+
+        <name>Guido van Rossum</name>
+        <social>Twitter: @gvanrossum <social>
+</table>
+
+<table>
+
+        <name>Ewa Jodlowska</name>
+        <social>Twitter: @ewa_jodlowska</social>
+</table>
+
+<table>
+
+        <name>Kevin Goldsmith</name>
+        <social>Twitter: @KevinGoldsmith</social>
+</table>
+
+<table>
+
+        <name>Jen Walraven</name>
+        <social> Linkedin: Jen-Walraven</social>
+</table>
+
+<table>
+
+        <name>Audrey Roy Greenfield</name>
+        <social>Twitter: @audreyr</social>
+</table>
+
+<table>
+
+        <name>Daniel Roy Greenfield</name>
+        <social> Twitter: @pydanny</social>
+</table>
+
+<table>
+
+        <name>Reshama Shaikh</name>
+        <social>Twitter: @reshamas</social>
+</table>
+
+<table>
+
+        <name>Tomaz Muraus</name>
+        <social>Twitter: @KamiSLO</social>
+</table>
+
+<table>
+
+        <name>Tom Christie</name>
+        <social>Twitter: @_tomchristie</social>
+</table>
+
+<table>
+
+        <name>Yury Selivanov</name>
+        <social>Twitter: @1st1</social>
+</table>
+
+<table>
+
+        <name>Raymond Hettinger</name>
+        <social>Twitter: @raymondh</social>
+</table>
+
+<table>
+
+        <name>Łukasz Langa</name>
+        <social>Twitter: @llanga</social>
+</table>
+
+<table>
+
+        <name>David Beazley</name>
+        <social>Twitter: @dabeaz</social>
+</table>
+
+</xml>
