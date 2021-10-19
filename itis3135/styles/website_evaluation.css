@@ -121,10 +121,10 @@ ul {
 	font-family:'Segoe UI' ;
 	text-align: center;
 }
-img{
-	height: 250px;
-}
+.fadein { position:relative; 
+		  width:500px; 
+		  height:332px; }
 
-#slides img {
-	display: none;
-}
+.fadein img { position:absolute; 
+	 		  left:0; 
+			top:0; }
