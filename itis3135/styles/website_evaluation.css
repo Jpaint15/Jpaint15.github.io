@@ -6,7 +6,7 @@ body
 	background-color: powderblue;
 	margin-left: 75px;
 	margin-right: 75px;
-    width: 750px;
+	width: 750px;
 	margin: 0 auto;
 }
 header {
@@ -37,19 +37,19 @@ h1
 	line-height: 0px;
 	color: #99ff99;
 }
- .contact-button {
+.contact-button {
 	padding:5px;
-    border:2px solid #ccc;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border-color:#333;
+	border:2px solid #ccc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-color:#333;
 	text-align: center;
- }
- p {
+}
+p {
 	color: black;
 	font-family: 'Segoe UI';
 	text-align: center;
- }
+}
 h2
 {
 	font-family: Georgia;
@@ -120,4 +120,11 @@ ul {
 	margin: 0; 
 	font-family:'Segoe UI' ;
 	text-align: center;
-  }
+}
+img{
+	height: 250px;
+}
+
+#slides img {
+	display: none;
+}
