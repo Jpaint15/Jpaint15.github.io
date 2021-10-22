@@ -8,10 +8,10 @@
 	</title>
 	
 	<meta name="viewport"
-		content="width=device-width, initial-scale=1">
+	content="width=device-width, initial-scale=1">
 	
 	<link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<style>
 		img {
@@ -123,7 +123,7 @@
 		</div>
 		<div class="slide">
 			<div class="slideNumber">3</div>
-			<img src="images/lebron.jpeg">
+			<img src="images/lebron.jpg.webp">
 		</div>
 		<div class="slide">
 			<div class="slideNumber">4</div>
@@ -137,7 +137,7 @@
 			<div class="slideNumber">3</div>
 			<img src="images/luka.jpeg">
 		</div>
-
+		
 		<!-- Next and Previous icon to change images -->
 		<a class="previous" onclick="moveSlides(-1)">
 			<i class="fa fa-chevron-circle-left"></i>
@@ -147,57 +147,63 @@
 		</a>
 	</div>
 	<br>
-
+	
 	<div style="text-align:center">
 		<span class="footerdot"
-			onclick="activeSlide(1)">
-		</span>
-		<span class="footerdot"
-			onclick="activeSlide(2)">
-		</span>
-		<span class="footerdot"
-			onclick="activeSlide(3)">
-		</span>
-	</div>
+		onclick="activeSlide(1)">
+	</span>
+	<span class="footerdot"
+	onclick="activeSlide(2)">
+</span>
+<span class="footerdot"
+onclick="activeSlide(3)">
+</span>
+<span class="footerdot"
+onclick="activeSlide(4)">
+</span>
+<span class="footerdot"
+onclick="activeSlide(5)">
+</span>
+</div>
+
+<script>
+	var slideIndex = 1;
+	displaySlide(slideIndex);
 	
-	<script>
-		var slideIndex = 1;
-		displaySlide(slideIndex);
-
-		function moveSlides(n) {
-			displaySlide(slideIndex += n);
+	function moveSlides(n) {
+		displaySlide(slideIndex += n);
+	}
+	
+	function activeSlide(n) {
+		displaySlide(slideIndex = n);
+	}
+	
+	/* Main function */
+	function displaySlide(n) {
+		var i;
+		var totalslides =
+		document.getElementsByClassName("slide");
+		
+		var totaldots =
+		document.getElementsByClassName("footerdot");
+		
+		if (n > totalslides.length) {
+			slideIndex = 1;
 		}
-
-		function activeSlide(n) {
-			displaySlide(slideIndex = n);
+		if (n < 1) {
+			slideIndex = totalslides.length;
 		}
-
-		/* Main function */
-		function displaySlide(n) {
-			var i;
-			var totalslides =
-				document.getElementsByClassName("slide");
-			
-			var totaldots =
-				document.getElementsByClassName("footerdot");
-			
-			if (n > totalslides.length) {
-				slideIndex = 1;
-			}
-			if (n < 1) {
-				slideIndex = totalslides.length;
-			}
-			for (i = 0; i < totalslides.length; i++) {
-				totalslides[i].style.display = "none";
-			}
-			for (i = 0; i < totaldots.length; i++) {
-				totaldots[i].className =
-				totaldots[i].className.replace(" active", "");
-			}
-			totalslides[slideIndex - 1].style.display = "block";
-			totaldots[slideIndex - 1].className += " active";
+		for (i = 0; i < totalslides.length; i++) {
+			totalslides[i].style.display = "none";
 		}
-	</script>
+		for (i = 0; i < totaldots.length; i++) {
+			totaldots[i].className =
+			totaldots[i].className.replace(" active", "");
+		}
+		totalslides[slideIndex - 1].style.display = "block";
+		totaldots[slideIndex - 1].className += " active";
+	}
+</script>
 </body>
 
 </html>
