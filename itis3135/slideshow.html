@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+     <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+		<h1>The Top 6 NBA Players For the 2022 NBA Season</h1>
+
+		
+		<br><br>
+	
+	<!-- Image container of the image slider -->
+	<div class="image-container">
+		<div class="slide">
+			<div class="slideNumber">Giannis Antetokoupmo</div>
+			<img src="images/giannis.webp">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">Kevin Durant</div>
+			<img src="images/durant.jpeg">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">Lebron James</div>
+			<img src="images/lebron.jpg.webp">
+		</div>
+        <div class="slide">
+			<div class="slideNumber">Steph Curry</div>
+			<img src="images/curry.jpg">
+		</div>
+        <div class="slide">
+			<div class="slideNumber">Kawhi Leonard</div>
+			<img src="images/kawhi.jpg">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">Luka Doncic</div>
+			<img src="images/luka.jpg">
+		</div>
+
+		<!-- Next and Previous icon to change images -->
+		<a class="previous" onclick="moveSlides(-1)">
+			<i class="fa fa-chevron-circle-left"></i>
+		</a>
+		<a class="next" onclick="moveSlides(1)">
+			<i class="fa fa-chevron-circle-right"></i>
+		</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="footerdot"
+			onclick="activeSlide(1)">
+		</span>
+		<span class="footerdot"
+			onclick="activeSlide(2)">
+		</span>
+		<span class="footerdot"
+			onclick="activeSlide(3)">
+		</span>
+	</div>
+	
+	<script>
+		var slideIndex = 1;
+		displaySlide(slideIndex);
+
+		function moveSlides(n) {
+			displaySlide(slideIndex += n);
+		}
+
+		function activeSlide(n) {
+			displaySlide(slideIndex = n);
+		}
+
+		/* Main function */
+		function displaySlide(n) {
+			var i;
+			var totalslides =
+				document.getElementsByClassName("slide");
+			
+			var totaldots =
+				document.getElementsByClassName("footerdot");
+			
+			if (n > totalslides.length) {
+				slideIndex = 1;
+			}
+			if (n < 1) {
+				slideIndex = totalslides.length;
+			}
+			for (i = 0; i < totalslides.length; i++) {
+				totalslides[i].style.display = "none";
+			}
+			for (i = 0; i < totaldots.length; i++) {
+				totaldots[i].className =
+				totaldots[i].className.replace(" active", "");
+			}
+			totalslides[slideIndex - 1].style.display = "block";
+			totaldots[slideIndex - 1].className += " active";
+		}
+	</script>
+</body>
+
+</html>
+
