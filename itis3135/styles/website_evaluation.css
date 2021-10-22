@@ -145,11 +145,11 @@ ul {
   #leftControl {
 	top:0;
 	left:0;
-	background-image: url('/Jpaint15.github.io/itis3135/images/left.png');
-  }
+	background:transparent url(/Jpaint15.github.io/itis3135/images/left.png) no-repeat 0 0;
+}
   #rightControl {
 	top:0;
 	right:0;
-	background-image: url('/Jpaint15.github.io/itis3135/images/right.png');
+	background:transparent url(/Jpaint15.github.io/itis3135/images/right.png) no-repeat 0 0;
   }
   
