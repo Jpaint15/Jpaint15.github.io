@@ -1,155 +1,94 @@
-
-body
-{
-	font-family: 'Segoe UI';
-	color: black ;
-	background-color: powderblue;
-	margin-left: 75px;
-	margin-right: 75px;
-	width: 750px;
-	margin: 0 auto;
-}
-header {
-	text-align: center;
-	line-height: 25px;
-	color: #99ff99;;
-}
-footer
-{
-	text-align: center;
-	line-height: 25px;
-	color: purple;
-}
-table
-{
-	border-collapse: collapse;
-	
-	margin: 20px;
-}
-thead
-{
-	background-color: #99ff99;
-}
-h1
-{
-	font-family: 'Segoe UI';
-	text-align: center;
-	line-height: 0px;
-	color: #99ff99;
-}
-.contact-button {
-	padding:5px;
-	border:2px solid #ccc;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	border-color:#333;
-	text-align: center;
-}
-p {
-	color: black;
-	font-family: 'Segoe UI';
-	text-align: center;
-}
-h2
-{
-	font-family: Georgia;
-	text-align: center;
-	line-height: 0px;
-	color: #99ff99;
-}
-h3
-{
-	font-family: 'Segoe UI';
-	text-align: center;
-	line-height: 0px;
-	color: #99ff99;
-}
-h4
-{
-	font-family: 'Segoe UI';
-	text-align: center;
-	line-height: 0px;
-	color: #99ff99;;;
-}
-
-a
-{
-	text-decoration: none;
-	color: #9966ff;
-	font-weight: bold;
-}
-th, td
-{
-	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
-	text-align: center;
-	vertical-align: middle;
-}
-.right
-{
-	text-align: right;
-}
-
-tbody tr:nth-child(even) td
-{
-	background-color: #33ccff;
-}
-
-a:hover
-{
-	text-decoration: underline;
-	color: #99ff99;
-}
-
-figure
-{
-	text-align: center;
-}
-
-figcaption
-{
-	font-style: italic;
-}
-nav
-{
-	text-align: center;
-}
-ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0; 
-	font-family:'Segoe UI' ;
-	text-align: center;
-}
- 
-  #slideshow #slidesContainer .slide {
+#slideshow {
 	margin:0 auto;
-	width:540px; /* reduce by 20 pixels to avoid horizontal scroll */
+	width:640px;
 	height:263px;
-  }
-  #slideshow #slidesContainer {
-	margin:0 auto;
-	width:560px;
-	height:263px;
-	overflow:auto; /* allow scrollbar */
+	background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;
 	position:relative;
-  }
-  .control {
-	display:block;
-	width:39px;
-	height:263px;
-	text-indent:-10000px;
-	position:absolute;
-	cursor: pointer;
-  }
-  #leftControl {
-	top:0;
-	left:0;
-	background:transparent url(/Jpaint15.github.io/itis3135/images/left.png) no-repeat 0 0;
 }
-  #rightControl {
-	top:0;
-	right:0;
-	background:transparent url(/Jpaint15.github.io/itis3135/images/right.png) no-repeat 0 0;
-  }
-  
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  height:263px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:263px;
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(img/control_left.jpg) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(img/control_right.jpg) no-repeat 0 0;
+}
+
+/** 
+ * Style rules for Demo page
+ */
+* {
+  margin:0;
+  padding:0;
+  font:normal 11px Verdana, Geneva, sans-serif;
+  color:#ccc;
+}
+a {
+  color: #fff;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+body {
+  background:#393737 url(img/bg_body.jpg) repeat-x top left;
+}
+#pageContainer {
+  margin:0 auto;
+  width:960px;
+}
+#pageContainer h1 {
+  display:block;
+  width:960px;
+  height:114px;
+  background:transparent url(img/bg_pagecontainer_h1.jpg) no-repeat top left;
+  text-indent: -10000px;
+}
+.slide h2, .slide p {
+  margin:15px;
+}
+.slide h2 {
+  font:italic 24px Georgia, "Times New Roman", Times, serif;
+  color:#ccc;
+  letter-spacing:-1px;
+}
+.slide img {
+  float:right;
+  margin:0 15px;
+}
+#footer {
+  height:100px;
+}
+#footer p {
+  margin:30px auto 0 auto;
+  display:block;
+  width:560px;
+  height:40px;
+}
