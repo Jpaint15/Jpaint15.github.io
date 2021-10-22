@@ -2,33 +2,42 @@
 
 <html lang="en">
 
-    <title> Jonathan Painter, ITIS 3135, Slideshow</title>
-	<head>
-		<title>SlideShow</title>
-		<meta charset="UTF-8">
-	    <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="scripts/slieshow.js"></script>
+<title> Jonathan Painter, ITIS 3135, Slideshow</title>
+<head>
+    <title>SlideShow</title>
+    <meta charset="UTF-8">
+    <link href="styles/website_evaluation.css" rel="stylesheet" type="text/css">\
+    <script src="scripts/slieshow.js"></script>
+    <script   
+    src="https://code.jquery.com/jquery-3.6.0.js"   
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   
+    crossorigin="anonymous">
+    
+</script>
 
-	</head>
+</head>
 
 <body>
     
     <!-- the HTML for the slide show application -->
     
     <main>
-        <h1>Top 6 NBA Players Entering the 2022 NBA Season</h1>
         
-        <div class="slideshow">
-                <img src="images/giannis.webp" class='active' >
-                <img src="images/durant.jpeg">
-                <img src="images/lebron.jpg.webp">
-                <img src="images/curry.jpg" >
-                <img src="images/luka.jpg" >
-                <img src="images/kawhi.jpg" >
-          </div>
-    </main>
+        <div id="slideshow">
+            <div id ="slidesContainer">
+                <h1>Top 6 NBA Players Entering the 2022 NBA Season</h1>
+                <div class="slide">
+                    <img src="images/giannis.webp" class='active' >
+                    <img src="images/durant.jpeg">
+                    <img src="images/lebron.jpg.webp">
+                    <img src="images/curry.jpg" >
+                    <img src="images/luka.jpg" >
+                    <img src="images/kawhi.jpg" >
+                </div>
+            </div>
+        </div>
+        </main>
+        
+    </body>
     
-</body>
-
-</html>
+    </html>
