@@ -29,3 +29,17 @@ input{
 }
 
 /*add styles*/
+#update{
+    padding: 15px;
+    color:black;
+}
+
+#average{
+    padding: 15px;
+    color:black;
+    }
+#submit {
+        padding: 15px;
+        color:black; 
+    }
+    
