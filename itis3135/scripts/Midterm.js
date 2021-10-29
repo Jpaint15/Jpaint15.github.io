@@ -48,10 +48,14 @@ function updateCalorie() {
 
 }
 function showAverageCalories() {
-    Array.max=function(calories) {
-            return Math.max.apply(Math,calories);
-    }
+var total=0;
+for (var i=0;i<calories.length; i++) {
+    total+=calories[i];
+}
+var average=total/calories.length;
 }
 function showMax() {
-    
+    Array.max=function(calories) {
+        return Math.max.apply(Math,calories);
+}
 }
