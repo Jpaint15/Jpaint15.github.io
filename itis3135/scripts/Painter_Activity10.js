@@ -13,17 +13,17 @@ $(document).ready(function ()
         var imageURL = $(this).attr("href");
         $("#image").attr("src", imageURL);
         var caption = $(this).attr("title");
-        $("#caption").fadeOut(1000, function ()
+        $("#caption").fadeOut(1000, function () //start fade
         {
             $("#caption").text(caption).fadeIn(1000);
         });
         $("#image").fadeOut(1000, function ()
         {
-            $("#image").attr("src", imageURL).fadeIn(1000);
+            $("#image").attr("src", imageURL).fadeIn(1000); // new picture fade
         });
         // cancel the default action of the link
         evt.preventDefault();
-    }); // end click
-    // move focus to first thumbnail
+    }); 
+
     $("li:first-child a").focus();
 }); // end ready
