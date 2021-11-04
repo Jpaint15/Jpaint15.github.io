@@ -1,15 +1,29 @@
-$(document).ready(function() {
+$(document).ready(function ()
+{
+    // preload images
+    $("#image_list a").each(function ()
+    {
+        var swappedImage = new Image();
+        swappedImage.src = $(this).attr("href");
+    });
 
-
-        // preload the image for each link
-
-        // set up the event handlers for each link
-
-    			// get the image URL and caption for each image and animate the caption
-
-            // cancel the default action of each link
-
-
-    // move the focus to the first link
-
+    // set up event handlers for links  
+    $("#image_list a").click(function (evt)
+    {
+        var imageURL = $(this).attr("href");
+        $("#image").attr("src", imageURL);
+        var caption = $(this).attr("title");
+        $("#caption").fadeOut(1000, function ()
+        {
+            $("#caption").text(caption).fadeIn(1000);
+        });
+        $("#image").fadeOut(1000, function ()
+        {
+            $("#image").attr("src", imageURL).fadeIn(1000);
+        });
+        // cancel the default action of the link
+        evt.preventDefault();
+    }); // end click
+    // move focus to first thumbnail
+    $("li:first-child a").focus();
 }); // end ready
