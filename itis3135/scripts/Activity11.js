@@ -1,4 +1,7 @@
 
 $(document).ready(function() {
-    $("#tabs").tabs();
+    $("#accordion").accordion({
+        active: false,
+        collapsible: true
+    });
 });
