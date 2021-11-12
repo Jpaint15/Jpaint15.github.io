@@ -1,130 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    
-    <meta charset="UTF-8">
-    
-    <!-- title for web page -->
-    
-    <title>Accordion</title>
-    
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    
-    <link rel="stylesheet" href="main.css">
-    
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    
-    <!-- jQuery call to the tabs() method. -->
-    
-    <script>
-        
-        $(document).ready(function() {
-            
-            $("#accordion").accordion();
-            
-        });
-        
-    </script>
-    
+<meta charset="UTF-8">
+<title>bxSlider Plugin</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  
+
+<style type="text/css">
+   body {
+       font-family: Arial, Helvetica, sans-serif;
+       width: 540px;
+       margin: 0 auto;
+       padding: 20px;
+       border: 3px solid blue;
+       align-items: center;
+       }
+       h1 {
+       background: #dfe3e6 url('images/bullet.gif') no-repeat 7px center;
+       margin: 0;
+       padding: 3px 0 3px 25px;
+       border: solid blue 1px;
+       color: blue;
+       }
+
+       .bx-wrapper {
+           margin-bottom: 20px;
+       }
+       #pager {
+       text-align: center;
+       font-size: 90%;
+       color: blue;
+       }
+       .bx-wrapper .bx-caption {
+           margin-bottom: 10px;
+       }
+   </style>
+
 </head>
 
 <body>
-    
-    <main>
-        
-        <h1>Murach's HTML5 and CSS3 (3rd Edition)</h1>
-        
-        <!-- Tabs HTML code -->
-        
-        <div id="accordion">
-            
-            <h1>Book description</h1>
-            
-            <div>
-                
-                <p>With this book, you can teach yourself how to design web pages the way the
-                    
-                    professionals do, by using HTML and CSS in tandem to structure and format the
-                    
-                    page content. It begins with a crash course that teaches you more about HTML
-                    
-                    and CSS than you can learn from most full books. That includes a chapter on
-                    
-                    Responsive Web Design that shows you how to build responsive websites that will
-                    
-                    look and work right on all devices, from phones to tablets to desktop computers.</p>
-                    
-                    <p>After that, this book shows you how to enhance your web pages with features
-                        
-                        like images, forms with built-in data validation, and audio and video clips.
-                        
-                        You'll also learn how to use JavaScript and jQuery to add features like image
-                        
-                        rollovers, image swaps, and slide shows. You'll learn how to use jQuery UI and
-                        
-                        jQuery plugins to add features like accordions, tabs, carousels, and slide shows.
-                        
-                        And you'll learn how to use jQuery Mobile to develop separate websites for mobile
-                        
-                        devices.</p>
-                        
-                    </div>
-                    
-                    <h1>About the authors</h1>
-                    
-                    <div>
-                        
-                        <p><strong>Anne Boehm</strong> has over 30 years of experience as an enterprise programmer. She got
-                            
-                            started with Visual Basic in the days of VB5 and has been programming on .NET since
-                            
-                            its inception. She added C# to her programming repertoire in the mid-2000s, and she's
-                            
-                            authored or co-authored our books on Visual Basic, C#, ADO.NET, ASP.NET, and HTML5/CSS3</p>
-                            
-                            <p><strong>Zak Ruvalcaba</strong> has been researching, designing, and developing for the web since
-                                
-                                1995. His skill set ranges from HTML5/CSS3 and JavaScript/jQuery to .NET with VB
-                                
-                                and C#, and he's created web applications for companies like HP, Toshiba, IBM,
-                                
-                                Gateway, Intuit, Peachtree, Dell, and Microsoft. He has authored or co-authored our
-                                
-                                books on HTML5/CSS3, jQuery, and Dreamweaver CC.</p>
-                                
-                            </div>
-                            
-                            <h1>Who this book is for</h1>
-                            
-                            <div>
-                                
-                                <p>This book is for anyone who wants to develop web pages at a thoroughly professional
-                                    
-                                    level. That includes:</p>
-                                    
-                                    <ul>
-                                        
-                                        <li>budding web developers</li>
-                                        
-                                        <li>web developers who haven't yet updated their websites to HTML5 and CSS3</li>
-                                        
-                                        <li>web developers who need to expand and enhance their skillsets</li>
-                                        
-                                    </ul>
-                                    
-                                </div>
-                                
-                            </div>
-                            
-                            <!-- End Tabs HTML code -->
-                            
-                        </main>
-                        
-                    </body>
-                    
-                    </html>
-                    
+<main>
+<h1>About Us</h1>
+<p>On June 6th, 2016, Vecta Corp. moved into its new 4 story, 35,000 square foot facilty.
+Below are a few pictures of the new facility.</p>
+<ul id="slider">
+<li><img src="1.jpg" alt="" title="Front"></li>
+<li><img src="2.jpg" alt="" title="Left side"></li>
+<li><img src="1.jpg" alt="" title="Rear"></li>
+<li><img src="2.jpg" alt="" title="Offices"></li>
+<li><img src="1.jpg" alt="" title="Conference room"></li>
+</ul>
+
+<p id="pager" style="margin-top: 80px">
+
+</p>
+</main>
+<footer>
+<br />
+<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+<script type="text/javascript">
+   $(document).ready(function() {
+       $("#slider").bxSlider({
+       auto: true,
+       randomStart:true,
+       slideWidth: 250,
+       slideMargin: 10,
+       captions:true,
+       speed:2000,
+       pagerType:'short',
+       pagerSelector:'#pager'
+       });
+       });
+</script>
+</body>
+</html>
