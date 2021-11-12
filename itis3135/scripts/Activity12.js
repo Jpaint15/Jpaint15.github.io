@@ -1,9 +1,12 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
-        auto: true,
-        minSlides: 2,
-        maxSlides: 2,
-        slideWidth: 300,
-        slideMargin: 20
-    });
+    auto: true,
+    randomStart:true,
+    slideWidth: 250,
+    slideMargin: 10,
+    captions:true,
+    speed:2000,
+    pagerType:'short',
+    pagerSelector:'#pager'
+});
 });
