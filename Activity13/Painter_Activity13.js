@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    // Create an method named 'ajax' to get the data from the
+    // JSON file
     $.ajax({
         type: "get",
         url: "team.json",
@@ -17,7 +19,7 @@ $(document).ready(function() {
                     $("#team").append(
                         "Name: " + value.name + "<br>" +
                         "Title: " + value.title + "<br>" +
-                        "Bio: " + value.bio + "<br><br>" 
+                        "Bio: " + value.bio + "<br><br>"
                         );
                     });
                 });
