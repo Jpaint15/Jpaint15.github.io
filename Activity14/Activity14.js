@@ -5,10 +5,11 @@ $(document).ready(function () {
         var filename = title+".json";
         consumeJSON(filename);
     });
+    
 }); // end ready
 function consumeJSON(jsonFileURL) {
     $.ajax({
-        url: jsonFileURL,
+        url: "json_files/" + jsonFileURL,
         //handle as text
         dataType: "text",
         success: function (data) {
