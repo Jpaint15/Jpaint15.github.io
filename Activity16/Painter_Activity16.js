@@ -1,28 +1,13 @@
-$(document).ready(function() {
-    // Create an method named 'ajax' to get the data from the
- // JSON file
-    $.ajax({
-     type: "get",
-     url: "team.json",
-     beforeSend: function() {
-      $("#team").html("Loading...");
-     },
-     timeout: 10000,
-     error: function(xhr, status, error) {
-      alert("Error: " + xhr.status + " - " + error);
-     },
-     dataType: "json",
-     success: function(data) {
-      $("#team").html("");
-      $.each(data, function() {
-          $.each(this, function(key, value) {
-        $("#team").append(
-         "Name: " + value.name + "<br>" +
-         "Title: " + value.title + "<br>" +
-         "Bio: " + value.bio + "<br><br>"
-        );
-       });
-      });
-     }
+$(document).ready(function(){
+    var url= "https://api.flickr.com/services/feeds/photos_public.gne?id=82407828@N07&format=json&jsoncallback=?&tags=vectacorpbuilding"
+    
+        $.getJSON(url,function(data){
+    
+            var html = ""
+            $.each(data.items, function(i,item){
+    
+            html += "<a title=" + item.title + " rel=lightbox[] href=" + item.media.m+"</a>"+"<img src="+item.media.m+">"
+            })
+            $("#new_building").html(html)
+        })
     });
-   });
