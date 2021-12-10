@@ -18,7 +18,6 @@ $(document).ready(function() {
                     $.each(this, function(key, value) { 
                         $("#programmer").append( 
                             "<h3>" + value.description + "</h3>" 
-                            
                             )
                         })
                     })
