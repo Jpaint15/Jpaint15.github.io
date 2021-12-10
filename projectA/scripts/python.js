@@ -17,7 +17,7 @@ $(document).ready(function() {
                 $.each(data, function() { 
                     $.each(this, function(key, value) { 
                         $("#programmer").append( 
-                            "<h3>" + value.description + "</h3>" 
+                            "<h3>" + value.follow + "</h3>" 
                             )
                         })
                     })
