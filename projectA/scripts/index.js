@@ -26,7 +26,7 @@ $('raptor').click(function(){
  })
 
  $(document).ready(function(){
-  $.getJSON("Programmers.json", function(data) {
+  $.getJSON("programmers.json", function(data) {
       $.each(data,function() {
           $.each(this, function(key, value) {
               $('#programmer').append(
