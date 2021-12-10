@@ -29,9 +29,9 @@ $('raptor').click(function(){
   $.getJSON("Programmers.json", function(data) {
       $.each(data,function() {
           $.each(this, function(key, value) {
-              $('#programmers').append(
-                  "<img src=" + " ' " + value.image + " '><br>" +
+              $('#programmer').append(
                   "<h3>" + value.full_name + "</h3>" +
+                  "<img src=" + " ' " + value.image + " '><br>" +
                   "<h3>" + value.description + "</h3>" +
                   "<p>" + value.follow + "</p><br>" 
                   );
