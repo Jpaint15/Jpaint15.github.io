@@ -1,0 +1,165 @@
+html {
+	height: 100%;
+	margin: auto;
+	width: 960px;
+    overflow: auto;
+  }
+body
+{
+	font-family: 'Segoe UI';
+	color: black ;
+	background-color: powderblue;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:58px;
+    overflow: auto;
+}
+header {
+	text-align: center;
+	line-height: 25px;
+	color: #99ff99;;
+}
+footer
+{
+	text-align: center;
+	line-height: 25px;
+	color: purple;
+}
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+thead
+{
+	background-color: #99ff99;
+}
+h1
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: #99ff99;
+}
+ .contact-button {
+	padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:#333;
+	text-align: left;
+ }
+ p {
+	color: black;
+	font-family: 'Segoe UI';
+	text-align: left;
+	font-size: 15px;
+ }
+h2
+{
+	font-family: Georgia;
+	text-align: left;
+	line-height: 0px;
+	color: purple;
+}
+h3
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: purple;
+}
+h4
+{
+	font-family: 'Segoe UI';
+	text-align: center;
+	line-height: 0px;
+	color: purple;
+}
+
+a
+{
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+}
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: #33ccff;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #99ff99;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+nav
+{
+	text-align: center;
+}
+ul {
+	padding: 0;
+	display: inline-block;
+	margin: 0; 
+	font-family:'Segoe UI' ;
+	text-align: left;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-size: 20px;
+	
+  }
+  ul li{
+	font-size:20px;
+   }
+
+
+   .fixed-content {
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+button {
+    color: lightblue;
+    background-color: darkslategray;
+  }
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color:lightblue;
+    background-color: darkslategray;
+  }
+#intro {
+    color:purple;
+    text-align: center;
+    font-family: 'Segoe UI';
+    position: static;
+    font-weight: bold;
+}
