@@ -17,10 +17,10 @@ $(document).ready(function() {
                 $.each(data, function() { 
                     $.each(this, function(key, value) { 
                         $("#programmer").append( 
-                            "<h2>Name"+value.follow+"</h2>"+"<img src="+value.image+">"
-                            
-                            
-                            
+                            "<h3>" + value.full_name + "</h3>" +
+                            "<img src=" + " ' " + value.image + " '><br>" +
+                            "<p>" + value.description + "</p>" +
+                            "<p>" + value.follow + "</p><br>" 
                             )
                         })
                     })
