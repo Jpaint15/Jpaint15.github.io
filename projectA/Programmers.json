@@ -1,19 +1,19 @@
 {"programmers":[
 	{
 		"full_name": "Ines Montani",
-		"image": "Programmers/ines-montani.png",
+		"image": "programmers/ines-montani.png",
 		"description": "Ines Montani is a software developer working on Artificial Intelligence and Natural Language Processing technologies. She perfectly combines her passions to programming, front-end, linguistics and marketing, as a Co-founder of Explosion, a software company specializing in developer tools for AI & NLP.",
 		"follow": "Follow her on Github, StackOverflow, YoutTube, & Twitter"
 	},
 	{
 		"full_name": "Sebastian Witowski",
-		"image": "Programmers/sebastian-witowski.png",
+		"image": "programmers/sebastian-witowski.png",
 		"description": "Sebastian Witowski is a software engineer with 8+ years of experience in full-stack Python development, a consultant and trainer. He’s written code for both scientific institutions like the European Organization for Nuclear Research (CERN) and Fortune 500 companies.",
 		"follow": "Follow him on CodersRank, GitHub, & Twitter"
 	},
 	{
 		"full_name": "Doug Hellmann",
-		"image": "Programmers/doug-hellmann.png",
+		"image": "programmers/doug-hellmann.png",
 		"description": "Doug Hellmann is a software developer, Hellman’s impressive list of accomplishments includes OpenStack & Kubernetes contributor, Fellow of the Python Software Foundation, and the author of two books The Python 2 Standard Library By Example and The Python 3 Standard Library By Example.",
 		"follow": "Follow him on his website, doughellmann.com, Github, & Twitter "
 	}

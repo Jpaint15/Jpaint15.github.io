@@ -1,14 +1,32 @@
-$(document).ready(function(){
-    $.getJSON("programmers.json", function(data) {
-        $.each(data,function() {
-            $.each(this, function(key, value) {
-                $('#programmer').append(
-                    "<h3>" + value.full_name + "</h3>" +
-                    "<img src=" + " ' " + value.image + " '><br>" +
-                    "<h3>" + value.description + "</h3>" +
-                    "<p>" + value.follow + "</p><br>" 
-                    );
-                });
-            });
-        });
-    });
+$(document).ready(function() {
+    $.ajax({
+        url: 'programmers.json',
+        data:'data',
+        beforeSend: function() {
+            $("#programmer").html("Loading...");
+        },
+        timeout: 10000,
+        error: function(xhr, status, error) {
+            alert("Error: " + xhr.status + " - " + error);
+        },
+        dataType: "json",
+        success: function(data) {
+            $("#programmer").html("");
+            
+            $.getJSON("programmers.json", function(data){ 
+                $.each(data, function() { 
+                    $.each(this, function(key, value) { 
+                        $("#programmer").append( 
+                            "<h3>" + value.full_name + "</h3>" +
+                            "<img src=" + " ' " + value.image + " '><br>" +
+                            "<h3>" + value.description + "</h3>" +
+                            "<p>" + value.follow + "</p><br>" 
+                            
+                            )
+                        })
+                    })
+                })
+            }
+            
+        })
+    })
