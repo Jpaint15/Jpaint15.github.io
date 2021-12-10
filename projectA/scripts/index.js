@@ -25,4 +25,18 @@ $('raptor').click(function(){
     window.location='https://raptor.martincarlisle.com' + this.id;
  })
 
+ $(document).ready(function(){
+  $.getJSON("Programmers.json", function(data) {
+      $.each(data,function() {
+          $.each(this, function(key, value) {
+              $('#programmers').append(
+                  "<img src=" + " ' " + value.image + " '><br>" +
+                  "<h3>" + value.full_name + "</h3>" +
+                  "<h3>" + value.description + "</h3>" +
+                  "<p>" + value.follow + "</p><br>" 
+                  );
+              });
+          });
+      });
+  });
  
